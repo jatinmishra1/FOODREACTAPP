@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+}
+.header-left {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  cursor: pointer;
+}
+.header-left-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  list-style: none;
+}
+
+.img-logo {
+  height: 80px;
+  width: auto; /* Keep proper aspect ratio */
+}
+.btn {
+  width: 100px;
+  height: 50px;
+}
+.restaurant-card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.restaurant-card {
+  height: 400px;
+  width: 300px;
+  border: 2px solid black;
+}
+.restaurant-card > .restaurant-card-img {
+  height: 300px;
+  width: 300px;
+}
+
+.body-serach-box {
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px;
+}
+.shimmer-ui {
+  display: flex;
+  flex-wrap: wrap;
+}
+.shimmer-ui > .shimmer-ui-card {
+  height: 400px;
+  width: 300px;
+  border: 2px solid black;
+}
