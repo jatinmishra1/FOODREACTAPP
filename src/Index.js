@@ -7,6 +7,7 @@ import Body from "./Components/Body";
 import About from "./Components/About";
 import Contact from "./Components/Contact";
 import RestaurentView from "./Utils/RestaurentView";
+import Cart from "./Components/Cart";
 
 const domNode = document.getElementById("root");
 const root = createRoot(domNode);
@@ -27,6 +28,10 @@ const appRoute = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact />,
+      },
+      {
+        path: "/cart",
+        element: <Cart />,
       },
       {
         path: "/restaurent/:id",
